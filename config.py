@@ -1,7 +1,4 @@
 import os
-
-GOOGLE_API_KEY = os.getenv("AIzaSyB6edDC5SvMxzr4T2TT0eZ3AXhEZTaHTpE", "")
-
 DEFAULT_LOCATION = {
     "lat": 28.6,
     "lon": 77.2
