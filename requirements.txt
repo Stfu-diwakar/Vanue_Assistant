@@ -1,0 +1,8 @@
+streamlit
+plotly
+pandas
+google-generativeai
+streamlit-lottie
+streamlit-folium
+folium
+requests
