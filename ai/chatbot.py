@@ -3,8 +3,7 @@ import streamlit as st
 
 genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
 
-model = genai.GenerativeModel("gemini-pro")
-
+model = genai.GenerativeModel("gemini-1.5-flash")
 def ask_ai(user_query, context=""):
     prompt = f"""
     You are a smart assistant for a large sports stadium.
